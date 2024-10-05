@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+.picture{
+    width: 50px;
+    height: 50px;
+}
+.title{
+    text-align: center;
+}
+.headling{
+    font-family: Dancing Script;
+}
+header{
+    border-bottom: solid 2px black;
+}
+.box{
+    min-height: 50px;
+    margin: 0;
+}
+.box li::before{
+    content: '- ';
+}
+.box >p{
+    padding: 10px;
+}
+.box h2{
+    padding-left: 20px;
+}
+.content-inner{
+    border: solid black 2px;
+    padding: 0;
+}
+hr{
+    width: 100%;
+    border: solid 2px black;
+}
+.comment{
+    border: solid black 2px;
+    border-radius: 20px;
+}
+.box-card{
+    padding: 10px;
+    border: solid 2px black;
+    border-radius: 40px;
+    margin: 10px 0;
+}
+.review{
+    padding: 20px;
+}
+footer{
+    margin-top: 20px;
+    text-align: center;
+}
+@media(max-width: 720px){
+    h2.headling{
+        text-align: center;
+    }
+    table{
+        background-color:beige;
+        margin-bottom: 10px;
+    }
+    table tr td{
+        border-bottom: solid 2px black;
+    }
+}
