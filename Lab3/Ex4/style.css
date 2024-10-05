@@ -39,6 +39,7 @@ hr{
     border-radius: 20px;
 }
 .box-card{
+    font-weight: bold;
     padding: 10px;
     border: solid 2px black;
     border-radius: 40px;
@@ -47,9 +48,15 @@ hr{
 .review{
     padding: 20px;
 }
+.t-info{
+    color: grey;
+}
 footer{
     margin-top: 20px;
     text-align: center;
+}
+footer p{
+    font-family: Dacing Script;
 }
 @media(max-width: 720px){
     h2.headling{
